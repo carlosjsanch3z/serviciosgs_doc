@@ -33,5 +33,5 @@ for con in CONN:
         
 cad=TITULO+"\t"
 for lista in resultados:
-        cad+='"'+str(sum(lista)/len(lista)).replace(".",",")+'"\t'
+        cad+='"'+str(sum(lista)/len(lista))+'"\t'
 print cad[:-1]
